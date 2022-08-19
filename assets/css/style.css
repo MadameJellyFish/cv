@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Phenix American CG";
+  src: url("../font/Phenix American CG.otf");
+}
+
+:root {
+  --jaune: #e0b449;
+  --gray: #706F6F;
+  --black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.rectangle {
+  background-color: var(--jaune);
+  height: 600px;
+  text-align: left;
+}
+
+.photo {
+  position: absolute;
+  top: 100px;
+  left: 87px;
+}
+
+.titre:before{
+    content:'';
+    height: 100px;
+    width: 3px;
+    display: block;
+    background-color: var(--black);
+}
+
+h1 {
+  font-family: "Phenix American CG", sans-serif !important;
+  font-size: 8em;
+  line-height: 0.9em;
+}
+
+.prenom {
+  font-size: 0.9em;
+  font-family: "Phenix American CG", sans-serif !important;
+}
+
+.qr{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+}
+
+.description{
+    margin-left: auto;
+    font-weight: 300;
+}
+
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 30px 0 20px;
+}
+
+.phrase{
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.liens{
+    text-align: right;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--gray);
+    font-size: 1.2em;
+} 
+
+.liens>a{
+    text-decoration: none;
+}
+
+/* main */
+/* aside */
+.icons{
+    width: 30px;
+}
+h3{
+    font-size: 1.4em;
+}
+aside>h3{
+    margin-bottom: 20px;
+}
+
+aside>div>span{
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+/* section */
+
+.line{
+    border-left: 3px solid var(--black);
+    padding-left: 30px;
+}
+section>div>p{
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+section>div>p>span{
+    color: var(--gray);
+    font-weight: 300;
+    font-style: italic;
+}
+
+section>div>h3{
+    margin-top: 30px;
+}
+
+.loisirs{
+    width: 50px;
+}
+
+.interets>span{
+    color: var(--gray);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2em;
+}
