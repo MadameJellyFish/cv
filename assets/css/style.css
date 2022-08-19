@@ -49,8 +49,7 @@ h1 {
 }
 
 .qr{
-    height: 100px;
-    width: 100px;
+    align-self: start;
     margin-left: auto;
 }
 
@@ -98,10 +97,10 @@ aside>div>span{
     font-weight: 300;
     font-size: 1.2em;
     line-height: 1.2em;
+    text-align: justify;
 }
 
 /* section */
-
 .line{
     border-left: 3px solid var(--black);
     padding-left: 30px;
@@ -110,6 +109,7 @@ section>div>p{
     font-size: 1.4em;
     font-weight: 300;
     line-height: 1.2em;
+    text-align: justify;
 }
 
 section>div>p>span{
@@ -124,6 +124,7 @@ section>div>h3{
 
 .loisirs{
     width: 50px;
+    padding-bottom: 10px;
 }
 
 .interets>span{
@@ -132,3 +133,29 @@ section>div>h3{
     font-style: italic;
     font-size: 1.2em;
 }
+
+/* 
+@media screen and (max-width: 780px) {
+ 
+    .rectangle{
+      display: none;
+    }
+
+    h1{
+      font-size: 5em;
+      line-height: 0.9em;
+      text-align: center;
+    }
+
+    .container>div>div:first-child{
+      width: 400px;
+      border-radius: 50%;
+      background-color: var(--jaune);
+    }
+
+    .photo{
+      position: static;
+      margin: 10px auto;
+    }
+  
+} */
